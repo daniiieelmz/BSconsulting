@@ -21,6 +21,8 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -255,7 +257,7 @@
     <!-- Service End -->
 
 
-    <!-- Destination Start -->
+    <!-- Servicios Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
@@ -263,96 +265,399 @@
                 <h1>Explora los servicios que ofrecemos</h1>
             </div>
             <div class="row">
+                <!-- Card 1 - Diseño Web -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWdiseño web.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-
-
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWAPLICACIONES MOVILES.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-
-
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWdesarrollo de sofware.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWCAMPAÑAS DE PUBLICIDAD Y DISEÑO .jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWserrvicios fotograficos empresariales.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-
-                        </a>
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="web-design">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWdiseño web.jpg" alt="Diseño Web">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>Diseño Web</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Card 2 - Aplicaciones Móviles -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWbrnading.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-
-                        </a>
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="mobile-apps">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWAPLICACIONES MOVILES.jpg" alt="Apps Móviles">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>Aplicaciones Móviles</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Card 3 - Desarrollo de Software -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWestudio de mercado .jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-
-
-                        </a>
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="software-dev">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWdesarrollo de sofware.jpg" alt="Desarrollo de Software">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>Desarrollo de Software</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-
+                <!-- Card 4 - Campaña de publicidad -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWredes sociales.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-
-                        </a>
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="advertising-design">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWCAMPAÑAS DE PUBLICIDAD Y DISEÑO .jpg"
+                                alt="Campañas de publicidad y diseño">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>Campaña publicidad y diseño</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 5 - Servicios fotograficos -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="business-photography">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWserrvicios fotograficos empresariales.jpg" alt="">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>Servicios fotograficos empresariales</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Card 6 - Branding -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="destination-item position-relative overflow-hidden mb-2">
-                        <img class="img-fluid" src="img/PWposicionamiento SEO Y SEM.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="./service.html">
-                        </a>
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="branding-marketing">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWbrnading.jpg" alt="">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>Branding, marketing digital y estrategias de contenido</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Card 7 - Estudio de mercado -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="market-research">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWestudio de mercado .jpg" alt="">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>Estudios de mercado</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 - Redes sociales -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="social-media">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWredes sociales.jpg" alt="">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>Redes sociales</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9 - SEO y SEM -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card" data-bs-toggle="modal" data-bs-target="#serviceModal"
+                        data-service="seo-sem">
+                        <div class="destination-item position-relative overflow-hidden mb-2">
+                            <img class="img-fluid" src="img/PWposicionamiento SEO Y SEM.jpg" alt="">
+                            <div class="destination-overlay text-white text-decoration-none">
+                                <h4>PWposicionamiento SEO y SEM</h4>
+                                <span>Haz clic para más información</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
     </div>
-    <!-- Destination Start -->
+
+    <!-- Modal para las card de servicios -->
+    <div class="modal fade" id="serviceModal" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h2 class="modal-title fs-3" id="serviceModalLabel">Título del Servicio</h2>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img id="modalServiceImage" src="" alt="Imagen del servicio" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-6">
+                            <div id="modalServiceContent">
+                                <p class="lead">Descripción detallada del servicio...</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check-circle text-primary me-2"></i> Beneficio 1</li>
+                                    <li><i class="fas fa-check-circle text-primary me-2"></i> Beneficio 2</li>
+                                    <li><i class="fas fa-check-circle text-primary me-2"></i> Beneficio 3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a id="modalServiceLink" href="./service.html" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .service-card {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .destination-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .destination-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .destination-overlay h4 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .destination-overlay span {
+            font-size: 0.9rem;
+        }
+
+        .destination-item:hover .destination-overlay {
+            opacity: 1;
+        }
+
+        .modal-content {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .modal.fade .modal-dialog {
+            transition: transform 0.3s ease-out;
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const services = {
+                "web-design": {
+                    title: "Diseño Web Profesional",
+                    image: "img/PWdiseño web.jpg",
+                    content: `
+                        <p class="lead">Creamos sitios web atractivos, funcionales y optimizados para resultados.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Diseño 100% responsive</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Optimización SEO integrada</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Experiencia de usuario mejorada</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Integración con redes sociales</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Panel administrativo fácil de usar</li>
+                        </ul>
+                        <p>Nuestros diseños web están pensados para convertir visitantes en clientes.</p>
+                    `,
+                    link: "./service.html?service=web-design"
+                },
+                "mobile-apps": {
+                    title: "Aplicaciones Móviles",
+                    image: "img/PWAPLICACIONES MOVILES.jpg",
+                    content: `
+                        <p class="lead">Desarrollamos aplicaciones nativas e híbridas para iOS y Android.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Desarrollo para iOS y Android</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Pruebas de usabilidad</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Publicación en App Store y Google Play</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Integración con APIs y servicios</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Actualizaciones y mantenimiento</li>
+                        </ul>
+                        <p>Lleva tu negocio al bolsillo de tus clientes con una app profesional.</p>
+                    `,
+                    link: "./service.html?service=mobile-apps"
+                },
+                "software-dev": {
+                    title: "Desarrollo de Software a Medida",
+                    image: "img/PWdesarrollo de sofware.jpg",
+                    content: `
+                        <p class="lead">Soluciones personalizadas para automatizar y optimizar tus procesos.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Software empresarial</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Sistemas de gestión</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Bases de datos personalizadas</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Integración con otros sistemas</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Soporte y capacitación</li>
+                        </ul>
+                        <p>Automatiza procesos y aumenta la productividad de tu empresa.</p>
+                    `,
+                    link: "./service.html?service=software-dev"
+                },
+                "advertising-design": {
+                    title: "Campaña Publicidad y Diseño",
+                    image: "img/PWCAMPAÑAS DE PUBLICIDAD Y DISEÑO .jpg",
+                    content: `
+                        <p class="lead">Creamos campañas publicitarias impactantes y diseños memorables.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Diseño gráfico profesional</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Campañas digitales y tradicionales</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Estrategias de marketing visual</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Materiales promocionales</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Análisis de resultados</li>
+                        </ul>
+                        <p>Potencia tu marca con diseños que captan la atención de tu audiencia.</p>
+                    `,
+                    link: "./service.html?service=advertising-design"
+                },
+                "business-photography": {
+                    title: "Servicios Fotográficos Empresariales",
+                    image: "img/PWserrvicios fotograficos empresariales.jpg",
+                    content: `
+                        <p class="lead">Fotografía profesional para destacar tu negocio y productos.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Fotografía de producto</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Sesiones corporativas</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Fotografía para catálogos</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Edición profesional</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Banco de imágenes personalizado</li>
+                        </ul>
+                        <p>Imágenes de alta calidad que mejoran la percepción de tu marca.</p>
+                    `,
+                    link: "./service.html?service=business-photography"
+                },
+                "branding-marketing": {
+                    title: "Branding, Marketing Digital y Estrategias de Contenido",
+                    image: "img/PWbrnading.jpg",
+                    content: `
+                        <p class="lead">Desarrollamos la identidad de tu marca y estrategias digitales efectivas.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Creación de identidad visual</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Estrategias de contenido</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Planes de marketing digital</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Desarrollo de voz de marca</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Análisis de competencia</li>
+                        </ul>
+                        <p>Construye una marca sólida y reconocible en el mercado.</p>
+                    `,
+                    link: "./service.html?service=branding-marketing"
+                },
+                "market-research": {
+                    title: "Estudios de Mercado",
+                    image: "img/PWestudio de mercado .jpg",
+                    content: `
+                        <p class="lead">Investigación y análisis para tomar decisiones empresariales informadas.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Análisis de competencia</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Estudios de satisfacción</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Investigación de mercados</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Tendencias del sector</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Reportes personalizados</li>
+                        </ul>
+                        <p>Conoce a tu audiencia y toma decisiones basadas en datos.</p>
+                    `,
+                    link: "./service.html?service=market-research"
+                },
+                "social-media": {
+                    title: "Redes Sociales",
+                    image: "img/PWredes sociales.jpg",
+                    content: `
+                        <p class="lead">Gestión profesional de tus redes sociales para aumentar tu presencia digital.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Estrategias de contenido</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Calendarización de publicaciones</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Community management</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Análisis de métricas</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Campañas patrocinadas</li>
+                        </ul>
+                        <p>Maximiza tu impacto en redes sociales con estrategias profesionales.</p>
+                    `,
+                    link: "./service.html?service=social-media"
+                },
+                "seo-sem": {
+                    title: "Posicionamiento SEO y SEM",
+                    image: "img/PWposicionamiento SEO Y SEM.jpg",
+                    content: `
+                        <p class="lead">Mejoramos tu visibilidad en buscadores para atraer más clientes.</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Optimización SEO on-page</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Estrategias de keywords</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Campañas de Google Ads</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Análisis de competencia</li>
+                            <li><i class="fas fa-check-circle text-primary me-2"></i> Reportes de rendimiento</li>
+                        </ul>
+                        <p>Aumenta tu tráfico orgánico y consigue mejores posiciones en buscadores.</p>
+                    `,
+                    link: "./service.html?service=seo-sem"
+                }
+            };
+
+            const serviceModal = document.getElementById('serviceModal');
+            serviceModal.addEventListener('show.bs.modal', function (event) {
+                const button = event.relatedTarget; 
+                const serviceId = button.getAttribute('data-service');
+                const service = services[serviceId];
+
+                document.getElementById('serviceModalLabel').textContent = service.title;
+                document.getElementById('modalServiceImage').src = service.image;
+                document.getElementById('modalServiceImage').alt = service.title;
+                document.getElementById('modalServiceContent').innerHTML = service.content;
+                document.getElementById('modalServiceLink').href = service.link;
+            });
+        });
+    </script>
+    <!-- Servicios End  -->
 
 
 
 
     <!-- Testimonial Start -->
-    
+
     <!-- Testimonial End -->
 
 
@@ -431,6 +736,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 
-</html> 
+</html>

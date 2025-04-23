@@ -111,71 +111,341 @@
             <div class="container-block form-wrapper">
               <div class="mob-text">
                 <p class="text-blk contactus-head">
-                  Get in Touch
+                  Envianos tu opinion
                 </p>
                 <p class="text-blk contactus-subhead">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis diam lectus sapien.
+                  Completa el formulario y danos tu opinion o resuelve algun tipo de duda
                 </p>
               </div>
               <div class="responsive-container-block" id="i2cbk">
                 <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-3">
                   <p class="text-blk input-title">
-                    FIRST NAME
+                    Primer Nombre
                   </p>
-                  <input class="input" id="ijowk-3" name="FirstName" placeholder="Please enter first name...">
+                  <input class="input" id="ijowk-3" name="FirstName" placeholder="Ingrese su primer nombre...">
                 </div>
                 <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ip1yp">
                   <p class="text-blk input-title">
-                    EMAIL
+                    Correo Electronico
                   </p>
-                  <input class="input" id="ipmgh-3" name="Email" placeholder="Please enter email...">
+                  <input class="input" id="ipmgh-3" name="Email" placeholder="Ingrese su correo electronico...">
                 </div>
                 <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ih9wi">
                   <p class="text-blk input-title">
-                    PHONE NUMBER
+                    Numero de Telefono
                   </p>
-                  <input class="input" id="imgis-3" name="PhoneNumber" placeholder="Please enter phone number...">
+                  <input class="input" id="imgis-3" name="PhoneNumber" placeholder="Ingrese su numero telefonico...">
                 </div>
                 <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-3">
                   <p class="text-blk input-title">
-                    WHAT DO YOU HAVE IN MIND ?
+                    Que tienes para decirnos?
                   </p>
-                  <textarea class="textinput" id="i5vyy-3" placeholder="Please enter query..."></textarea>
+                  <textarea class="textinput" id="i5vyy-3" placeholder="Ingrese su comentario, duda u opinion..."></textarea>
                 </div>
               </div>
               <button class="submit-btn" id="w-c-s-bgc_p-1-dm-id-2">
-                Submit
+                Enviar
               </button>
             </div>
           </form>
+          <br>
           <div class="responsive-cell-block wk-desk-7 wk-ipadp-12 wk-tab-12 wk-mobile-12" id="i772w">
             <div class="map-part">
               <p class="text-blk map-contactus-head" id="w-c-s-fc_p-1-dm-id">
-                Reach us at
+                Encuentranos rapido
               </p>
               <p class="text-blk map-contactus-subhead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis diam lectus sapien.
+                Encuentranos rapidamente o contactanos directamente a travez de nuestras redes sociales
               </p>
               <div class="social-media-links mob">
-                <a class="social-icon-link" href="#" id="ix94i-2-2">
+                <a class="social-icon-link" href="https:/x.com" target="_blank" id="ix94i-2-2">
                   <img class="link-img image-block" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png">
                 </a>
-                <a class="social-icon-link" href="#" id="itixd">
+                <a class="social-icon-link" href="https:/facebook.com" target="_blank" id="itixd">
                   <img class="link-img image-block" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png">
                 </a>
-                <a class="social-icon-link" href="#" id="izxvt">
+                <a class="social-icon-link" href="index.html" target="_blank" id="izxvt">
                   <img class="link-img image-block" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-google.png">
                 </a>
-                <a class="social-icon-link" href="#" id="izldf-2-2">
+                <a class="social-icon-link" href="https:/instagram.com" target="_blank" id="izldf-2-2">
                   <img class="link-img image-block" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png">
                 </a>
               </div>
-              <div class="map-box container-block">
-              </div>
+              <div class="map-box" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62023.098579353915!2d-89.25645137447684!3d13.691558187085866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633067b411775d%3A0x1f75978893fb5c96!2sSan%20Salvador!5e0!3m2!1ses!2ssv!4v1745427065490!5m2!1ses!2ssv" 
+                width="1100" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             </div>
           </div>
         </div>
       </div>
+
+      <style>
+
+.map-box {
+    height: 700px;
+    width: 1100px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    position: relative;
+}
+
+.map-box iframe {
+    filter: grayscale(20%) contrast(90%) brightness(95%);
+    transition: all 0.3s ease;
+}
+
+.map-box:hover iframe {
+    filter: grayscale(0%) contrast(100%) brightness(100%);
+}
+
+.map-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    pointer-events: none;
+    z-index: 2;
+}
+.contact_us_6 {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact_us_6::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/pattern-bg.png') center/cover no-repeat;
+    opacity: 0.05;
+    z-index: 0;
+}
+
+.responsive-container-block.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.form-box {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.text-blk.contactus-head {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.text-blk.contactus-head::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: #7AB730;
+    border-radius: 2px;
+}
+
+.text-blk.contactus-subhead,
+.text-blk.map-contactus-subhead {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.input-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.input, .textinput {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+}
+
+.input:focus, .textinput:focus {
+    border-color: #7AB730;
+    box-shadow: #e7ffca;
+    outline: none;
+    background-color: white;
+}
+
+.textinput {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #91d839, #46691c);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #cef89b, #7AB730);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-part {
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    height: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.text-blk.map-contactus-head {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.social-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.social-icon-link:hover {
+    background: #7AB730;
+    transform: translateY(-3px);
+}
+
+.link-img.image-block {
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s ease;
+}
+
+.social-icon-link:hover .link-img.image-block {
+    filter: brightness(0) invert(1);
+}
+
+.map-box {
+    height: 300px;
+    background: #f1f1f1;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.map-box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/map-placeholder.jpg') center/cover no-repeat;
+    opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .contact_us_6 {
+        padding: 60px 0;
+    }
+    
+    .text-blk.contactus-head {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-box, .map-part {
+        padding: 30px;
+    }
+    
+    .text-blk.contactus-head {
+        font-size: 2rem;
+    }
+    
+    .submit-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact_us_6 {
+        padding: 40px 0;
+    }
+    
+    .form-box, .map-part {
+        padding: 25px;
+    }
+    
+    .text-blk.contactus-head {
+        font-size: 1.8rem;
+    }
+    
+    .input, .textinput {
+        padding: 12px 15px;
+    }
+}
+      </style>
+
+      
     <!-- Contact End -->
 
 
